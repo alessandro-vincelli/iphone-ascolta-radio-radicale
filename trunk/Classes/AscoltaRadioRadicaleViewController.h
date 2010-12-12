@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class AudioStreamer;
+
 @interface AscoltaRadioRadicaleViewController : UIViewController {
 
+	IBOutlet UIButton *playButton;
+	IBOutlet UIView *volumeSlider;
+	AudioStreamer *streamer;
+	NSTimer *progressUpdateTimer;
 }
+
+- (IBAction)buttonPressed:(id)sender;
+- (void)updateProgress:(NSTimer *)aNotification;
+- (IBAction)sliderMoved:(UISlider *)aSlider;
 
 @end
 
