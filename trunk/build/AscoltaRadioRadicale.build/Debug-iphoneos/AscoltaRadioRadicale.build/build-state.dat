@@ -1,256 +1,0 @@
-TAscoltaRadioRadicale
-v7
-r0
-t313585700.561198
-cCheck dependencies
-cProcessInfoPlistFile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/Info.plist AscoltaRadioRadicale-Info.plist
-cCompileXIB /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/MainWindow.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicaleViewController.xib
-cProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch.gch AscoltaRadioRadicale_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/main.o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleAppDelegate.o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale normal i386
-cGenerateDSYMFile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app.dSYM /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale
-cTouch /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
-c000000004C6C30170000000000000110
-t1282158615
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A4DB60000000000295900
-t1280986550
-s2709760
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A4DB0000000000029D580
-t1280986544
-s2741632
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A4DA10000000000001466
-t1280986529
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C6241ED00000000000009CD
-t1281507821
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C6242840000000001E228C0
-t1281507972
-s31598784
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicaleViewController.xib
-c000000004D00B8920000000000001A79
-t1291892882
-s6777
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicale_Prefix.pch
-c000000004D00B89200000000000000D1
-t1291892882
-s209
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.h
-c000000004D00B8920000000000000227
-t1291892882
-s551
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m
-c000000004D00B8920000000000000AC6
-t1291892882
-s2758
-i"AscoltaRadioRadicaleAppDelegate.h"
-i"AscoltaRadioRadicaleViewController.h"
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.h
-c000000004D00B892000000000000010F
-t1291892882
-s271
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m
-c000000004D00BF6E00000000000005F7
-t1291894638
-s1527
-i"AscoltaRadioRadicaleViewController.h"
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/MainWindow.xib
-c000000004D00B8920000000000004EC5
-t1291892882
-s20165
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicale.LinkFileList
-c000000004D00B8A20000000000000237
-t1291892898
-s567
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleAppDelegate.o
-t1291892900
-s48572
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o
-t1291892900
-s34768
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/main.o
-t1291892900
-s6348
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app
-t1291892900
-s238
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app.dSYM
-t1291892900
-s102
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale
-t1291892900
-s17876
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicaleViewController.nib
-t1291892899
-s1269
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/Info.plist
-t1291892898
-s649
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/MainWindow.nib
-t1291892899
-s1707
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/PkgInfo
-t1291892898
-s8
-
-N/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m
-c000000004D00B8920000000000000170
-t1291892882
-s368
-i<UIKit/UIKit.h>
-
-N/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch.gch
-t1291892899
-s15211536
-
-NAscoltaRadioRadicale-Info.plist
-c000000004D00B892000000000000038D
-t1291892882
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies313585698#313585698#0(0"0(0#1#0"7163367051467122688#0"0#
-
-CCompileC build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleAppDelegate.o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313585700.060964
-e313585700.287370
-r1
-xCompileC
-xbuild/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleAppDelegate.o
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m313585700#313585700#0(0"0(0#0#102"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m8604039584#2478"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleAppDelegate.m -o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleAppDelegate.o0#
-
-CCompileC build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313585700.062087
-e313585700.284660
-r1
-xCompileC
-xbuild/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@113"Compile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m313585700#313585700#0(0"0(0#0#105"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m8601952864#2484"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/Classes/AscoltaRadioRadicaleViewController.m -o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o0#
-
-CCompileC build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/main.o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313585700.059784
-e313585700.277906
-r1
-xCompileC
-xbuild/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/main.o
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m313585700#313585700#0(0"0(0#0#67"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m8602020416#2416"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/main.m -o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicaleViewController.xib
-s313585698.790136
-e313585699.231473
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicaleViewController.xib
-lSLF07#2@49"CompileXIB AscoltaRadioRadicaleViewController.xib313585698#313585699#0(0"0(0#0#99"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicaleViewController.xib8604565728#697"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicaleViewController.nib /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicaleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/MainWindow.xib
-s313585698.787132
-e313585699.231298
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib313585698#313585699#0(0"0(0#0#75"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/MainWindow.xib8603804192#649"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/MainWindow.nib /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CGenerateDSYMFile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app.dSYM /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale
-s313585700.516367
-e313585700.558274
-r1
-xGenerateDSYMFile
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app.dSYM
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale
-lSLF07#2@148"GenerateDSYMFile build/Debug-iphonesimulator/AscoltaRadioRadicale.app.dSYM build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale313585700#313585700#0(0"0(0#0#134"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale8604060384#488"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale -o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app.dSYM0#
-
-CLd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale normal i386
-s313585700.287444
-e313585700.516229
-r1
-xLd
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale
-xnormal
-xi386
-lSLF07#2@139"Link /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale313585700#313585700#0(0"0(0#0#0"8602128992#1075"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator -F/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator -filelist /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/Objects-normal/i386/AscoltaRadioRadicale.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/AscoltaRadioRadicale0#
-
-CProcessInfoPlistFile /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/Info.plist AscoltaRadioRadicale-Info.plist
-s313585698.769075
-e313585698.787060
-r1
-xProcessInfoPlistFile
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/Info.plist
-xAscoltaRadioRadicale-Info.plist
-lSLF07#2@39"Process AscoltaRadioRadicale-Info.plist313585698#313585698#0(0"0(0#0#92"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicale-Info.plist32651561162178660#584"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AscoltaRadioRadicale-Info.plist -genpkginfo /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app/Info.plist0#
-
-CProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch.gch AscoltaRadioRadicale_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s313585699.231720
-e313585700.059693
-r1
-xProcessPCH
-x/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch.gch
-xAscoltaRadioRadicale_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Precompile AscoltaRadioRadicale_Prefix.pch313585699#313585700#0(0"0(0#0#92"/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicale_Prefix.pch8605961856#2273"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/AscoltaRadioRadicale-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/AscoltaRadioRadicale.build/Debug-iphonesimulator/AscoltaRadioRadicale.build/DerivedSources -c /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/AscoltaRadioRadicale_Prefix.pch -o /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AscoltaRadioRadicale_Prefix-gwxpkjaollwmrqcswoexndvlzgmu/AscoltaRadioRadicale_Prefix.pch.gch0#
-
-CTouch /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app
-s313585700.558378
-e313585700.561132
-r1
-xTouch
-x/Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app
-lSLF07#2@119"Touch /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app313585700#313585700#0(0"0(0#0#0"8604194400#335"    cd /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alessandro/Documents/iphone-apps/AscoltaRadioRadicale/build/Debug-iphonesimulator/AscoltaRadioRadicale.app0#
-
