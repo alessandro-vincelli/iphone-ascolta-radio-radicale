@@ -1,631 +1,0 @@
-Trr
-v7
-r0
-t314733911.586744
-cCheck dependencies
-cProcessInfoPlistFile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/Info.plist rr-Info.plist
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-cCpResource build/Release-iphonesimulator/rr.app/loading.png loading.png
-cCpResource build/Release-iphonesimulator/rr.app/pause.png pause.png
-cCpResource build/Release-iphonesimulator/rr.app/play.png play.png
-cCpResource build/Release-iphonesimulator/rr.app/playerbar.png playerbar.png
-cCpResource build/Release-iphonesimulator/rr.app/logo.png logo.png
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/About.xib
-cCpResource build/Release-iphonesimulator/rr.app/data.html data.html
-cCpResource build/Release-iphonesimulator/rr.app/about.png about.png
-cCpResource build/Release-iphonesimulator/rr.app/Default.png Default.png
-cCpResource build/Release-iphonesimulator/rr.app/rr-icon-application.png rr-icon-application.png
-cProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch.gch rr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/main.o /Users/alessandro/Documents/iphone-apps/rr/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rrAppDelegate.o /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/FirstViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AudioStreamer.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/About.o /Users/alessandro/Documents/iphone-apps/rr/About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr normal i386
-cGenerateDSYMFile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app.dSYM /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr
-cTouch /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004CC1224600000000001EA9C0
-t1287725638
-s2009536
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004CC1222F0000000000000A23
-t1287725615
-s2595
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004CC1224400000000001C3D40
-t1287725636
-s1850688
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
-c000000004CC1221800000000000004CF
-t1287725592
-s1231
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
-c000000004CC656490000000000000294
-t1288066633
-s660
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004CC6569800000000001AAD60
-t1288066712
-s1748320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h
-c000000004CC1233D0000000000000364
-t1287725885
-s868
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC12431000000000015CDB0
-t1287726129
-s1428912
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
-c000000004CB3E48600000000000038F0
-t1286857862
-s14576
-
-N/Users/alessandro/Documents/iphone-apps/rr/About.h
-c000000004D1224A90000000000000118
-t1293034665
-s280
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/About.m
-c000000004D1225C50000000000000676
-t1293034949
-s1654
-i"About.h"
-
-N/Users/alessandro/Documents/iphone-apps/rr/About.xib
-c000000004D122B9A000000000000489B
-t1293036442
-s18587
-
-N/Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-c000000004D1234930000000000006960
-t1293038739
-s26976
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.h
-c000000004D0F84EE0000000000000224
-t1292862702
-s548
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m
-c000000004D0F84EE0000000000001AF9
-t1292862702
-s6905
-i"AscoltaRadioRadicaleViewController.h"
-i"AudioStreamer.h"
-i<QuartzCore/CoreAnimation.h>
-i<MediaPlayer/MediaPlayer.h>
-i<CFNetwork/CFNetwork.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.h
-c000000004D0F84EE0000000000001700
-t1292862702
-s5888
-i<UIKit/UIKit.h>
-i<Cocoa/Cocoa.h>
-i<pthread.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m
-c000000004D0F84EE000000000000BFA7
-t1292862702
-s49063
-i"AudioStreamer.h"
-i<CFNetwork/CFNetwork.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.h
-c000000004D0FA32F00000000000000E0
-t1292870447
-s224
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m
-c000000004D0FA32F00000000000005A9
-t1292870447
-s1449
-i"FirstViewController.h"
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.h
-c000000004D0FA32F00000000000001C5
-t1292870447
-s453
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m
-c000000004D0FA32F0000000000000C26
-t1292870447
-s3110
-i"rrAppDelegate.h"
-
-N/Users/alessandro/Documents/iphone-apps/rr/Default.png
-c000000004D12377D000000000000F0EB
-t1293039485
-s61675
-
-N/Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-c000000004D0FA32F00000000000049CC
-t1292870447
-s18892
-
-N/Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-c000000004D122681000000000000801B
-t1293035137
-s32795
-
-N/Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-c000000004D0FA32F00000000000049CA
-t1292870447
-s18890
-
-N/Users/alessandro/Documents/iphone-apps/rr/about.png
-c000000004A3E20E2000000000000011C
-t1245585634
-s284
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app
-t1293041111
-s646
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app.dSYM
-t1293041111
-s102
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/About.nib
-t1293041110
-s978
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/AscoltaRadioRadicaleViewController.nib
-t1293041109
-s1971
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/Default.png
-t1293041109
-s61675
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/FirstView.nib
-t1293041109
-s1743
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/Info.plist
-t1293041108
-s667
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/MainWindow.nib
-t1293041109
-s1827
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/PkgInfo
-t1293041108
-s8
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/SecondView.nib
-t1293041109
-s1742
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/about.png
-t1293041109
-s284
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/data.html
-t1293041109
-s1973
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/loading.png
-t1293041109
-s15100
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/logo.png
-t1293041109
-s6793
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/pause.png
-t1293041109
-s2864
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/play.png
-t1293041109
-s2979
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/playerbar.png
-t1293041109
-s4829
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr
-t1293041111
-s68744
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr-icon-application.png
-t1293041109
-s4380
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/About.o
-t1293041111
-s40652
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o
-t1293041111
-s60320
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AudioStreamer.o
-t1293041111
-s115220
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/FirstViewController.o
-t1293041110
-s37372
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/main.o
-t1293041110
-s6296
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rr.LinkFileList
-c000000004D123DD40000000000000304
-t1293041108
-s772
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rrAppDelegate.o
-t1293041110
-s53692
-
-N/Users/alessandro/Documents/iphone-apps/rr/data.html
-c000000004D122BCB00000000000007B5
-t1293036491
-s1973
-
-N/Users/alessandro/Documents/iphone-apps/rr/loading.png
-c000000004D0F84EE0000000000003AFC
-t1292862702
-s15100
-
-N/Users/alessandro/Documents/iphone-apps/rr/logo.png
-c000000004D0F84EE0000000000001A89
-t1292862702
-s6793
-
-N/Users/alessandro/Documents/iphone-apps/rr/main.m
-c000000004D0FA32F000000000000015B
-t1292870447
-s347
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/pause.png
-c000000004D0F84EE0000000000000B30
-t1292862702
-s2864
-
-N/Users/alessandro/Documents/iphone-apps/rr/play.png
-c000000004D0F84EE0000000000000BA3
-t1292862702
-s2979
-
-N/Users/alessandro/Documents/iphone-apps/rr/playerbar.png
-c000000004D0F84EE00000000000012DD
-t1292862702
-s4829
-
-N/Users/alessandro/Documents/iphone-apps/rr/rr-icon-application.png
-c000000004D123D3C000000000000111C
-t1293040956
-s4380
-
-N/Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch
-c000000004D0FA32F00000000000000AD
-t1292870447
-s173
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch.gch
-t1293041110
-s15113424
-
-Nrr-Info.plist
-c000000004D123CBD00000000000003CB
-t1293040829
-s971
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314733908#314733908#0(0"0(0#1#0"8656332256#0"0#
-
-CCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/About.o /Users/alessandro/Documents/iphone-apps/rr/About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.960992
-e314733911.064177
-r1
-xCompileC
-xbuild/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/About.o
-x/Users/alessandro/Documents/iphone-apps/rr/About.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/alessandro/Documents/iphone-apps/rr/About.m314733910#314733911#0(0"0(0#0#50"/Users/alessandro/Documents/iphone-apps/rr/About.m8638407904#1919"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/About.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/About.o0#
-
-CCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.870834
-e314733911.130085
-r1
-xCompileC
-xbuild/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController setButtonImage:]':
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: 'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: (Messages without a matching method signature
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: will be assumed to return 'id' and accept
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: '...' as arguments.)
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController updateProgress:]':
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:253: warning: unused variable 'duration'
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:252: warning: unused variable 'progress'
-lSLF07#2@95"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314733910#314733911#0(1157"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController setButtonImage:]':/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: 'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: (Messages without a matching method signature/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: will be assumed to return 'id' and accept/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: '...' as arguments.)/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController updateProgress:]':/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:253: warning: unused variable 'duration'/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:252: warning: unused variable 'progress'4(22@69"'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'314733910#158#171#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#44#0#44#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314733910#329#147#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#44#0#44#0#0"0(22@26"Unused variable 'duration'314733910#899#129#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#253#0#253#0#19"unused variable '*'0(22@26"Unused variable 'progress'314733910#1028#129#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#252#0#252#0#19"unused variable '*'0(0#0#87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m8644341152#1985"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AscoltaRadioRadicaleViewController.o0#
-
-CCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AudioStreamer.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.932814
-e314733911.452113
-r1
-xCompileC
-xbuild/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AudioStreamer.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m314733910#314733911#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m8641125024#1943"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/AudioStreamer.o0#
-
-CCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/FirstViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.869692
-e314733910.960838
-r1
-xCompileC
-xbuild/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/FirstViewController.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m314733910#314733911#0(0"0(0#0#72"/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m8655176000#1955"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/FirstViewController.o0#
-
-CCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/main.o /Users/alessandro/Documents/iphone-apps/rr/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.867207
-e314733910.932671
-r1
-xCompileC
-xbuild/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/main.o
-x/Users/alessandro/Documents/iphone-apps/rr/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/alessandro/Documents/iphone-apps/rr/main.m314733910#314733911#0(0"0(0#0#49"/Users/alessandro/Documents/iphone-apps/rr/main.m8661360992#1917"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/main.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/main.o0#
-
-CCompileC build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rrAppDelegate.o /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.868846
-e314733911.000896
-r1
-xCompileC
-xbuild/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rrAppDelegate.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m314733910#314733911#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m8655319168#1943"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rrAppDelegate.o0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/About.xib
-s314733909.617808
-e314733910.041685
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/About.xib
-lSLF07#2@20"CompileXIB About.xib314733909#314733911#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/About.xib8655303008#569"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/About.nib /Users/alessandro/Documents/iphone-apps/rr/About.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-s314733908.984894
-e314733909.618981
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-lSLF07#2@49"CompileXIB AscoltaRadioRadicaleViewController.xib314733908#314733909#0(0"0(0#0#81"/Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib8638928352#627"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/AscoltaRadioRadicaleViewController.nib /Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-s314733908.983643
-e314733909.613022
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib314733908#314733909#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/FirstView.xib8639146272#577"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/FirstView.nib /Users/alessandro/Documents/iphone-apps/rr/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-s314733908.978989
-e314733909.698143
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib314733908#314733909#0(0"0(0#0#57"/Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib8639767616#579"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/MainWindow.nib /Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-s314733908.980105
-e314733909.658257
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib314733908#314733909#0(0"0(0#0#57"/Users/alessandro/Documents/iphone-apps/rr/SecondView.xib8639588544#579"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/SecondView.nib /Users/alessandro/Documents/iphone-apps/rr/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Release-iphonesimulator/rr.app/Default.png Default.png
-s314733909.631738
-e314733909.642771
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/Default.png
-xDefault.png
-lSLF07#2@16"Copy Default.png314733909#314733909#0(0"0(0#0#54"/Users/alessandro/Documents/iphone-apps/rr/Default.png8654898944#499"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/Default.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/about.png about.png
-s314733909.630873
-e314733909.639338
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/about.png
-xabout.png
-lSLF07#2@14"Copy about.png314733909#314733909#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/about.png8655036608#497"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/about.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/data.html data.html
-s314733909.627842
-e314733909.638239
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/data.html
-xdata.html
-lSLF07#2@14"Copy data.html314733909#314733909#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/data.html8655131648#497"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/data.html /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/loading.png loading.png
-s314733909.613144
-e314733909.624968
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/loading.png
-xloading.png
-lSLF07#2@16"Copy loading.png314733909#314733909#0(0"0(0#0#54"/Users/alessandro/Documents/iphone-apps/rr/loading.png8658388352#499"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/loading.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/logo.png logo.png
-s314733909.616944
-e314733909.627400
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/logo.png
-xlogo.png
-lSLF07#2@13"Copy logo.png314733909#314733909#0(0"0(0#0#51"/Users/alessandro/Documents/iphone-apps/rr/logo.png8655860384#496"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/logo.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/pause.png pause.png
-s314733909.614250
-e314733909.625131
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/pause.png
-xpause.png
-lSLF07#2@14"Copy pause.png314733909#314733909#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/pause.png8657851168#497"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/pause.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/play.png play.png
-s314733909.615186
-e314733909.627747
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/play.png
-xplay.png
-lSLF07#2@13"Copy play.png314733909#314733909#0(0"0(0#0#51"/Users/alessandro/Documents/iphone-apps/rr/play.png8657531328#496"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/play.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/playerbar.png playerbar.png
-s314733909.616069
-e314733909.627587
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/playerbar.png
-xplayerbar.png
-lSLF07#2@18"Copy playerbar.png314733909#314733909#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/playerbar.png8657342880#501"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/playerbar.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CCpResource build/Release-iphonesimulator/rr.app/rr-icon-application.png rr-icon-application.png
-s314733909.632586
-e314733909.639521
-r1
-xCpResource
-xbuild/Release-iphonesimulator/rr.app/rr-icon-application.png
-xrr-icon-application.png
-lSLF07#2@28"Copy rr-icon-application.png314733909#314733909#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/rr-icon-application.png8654814528#511"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/rr-icon-application.png /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
-CGenerateDSYMFile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app.dSYM /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr
-s314733911.477663
-e314733911.582705
-r1
-xGenerateDSYMFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app.dSYM
-x/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr
-lSLF07#2@98"GenerateDSYMFile build/Release-iphonesimulator/rr.app.dSYM build/Release-iphonesimulator/rr.app/rr314733911#314733911#0(0"0(0#0#82"/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr8655403232#384"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr -o /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app.dSYM0#
-
-CLd /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr normal i386
-s314733911.452203
-e314733911.477570
-r1
-xLd
-x/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr
-xnormal
-xi386
-lSLF07#2@87"Link /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr314733911#314733911#0(0"0(0#0#0"8664018336#993"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -filelist /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/Objects-normal/i386/rr.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework AudioToolbox -framework CFNetwork -framework QuartzCore -o /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/rr0#
-
-CProcessInfoPlistFile /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/Info.plist rr-Info.plist
-s314733908.959226
-e314733908.978903
-r1
-xProcessInfoPlistFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/Info.plist
-xrr-Info.plist
-lSLF07#2@21"Process rr-Info.plist314733908#314733908#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/rr-Info.plist8642405856#480"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility rr-Info.plist -genpkginfo /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app/Info.plist0#
-
-CProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch.gch rr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s314733910.042027
-e314733910.867077
-r1
-xProcessPCH
-x/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch.gch
-xrr_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@24"Precompile rr_Prefix.pch314733910#314733911#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch8655150112#1808"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator -I/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources/i386 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Release-iphonesimulator/rr.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch -o /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-eicztpopatiizkeqyrtoznoivlko/rr_Prefix.pch.gch0#
-
-CTouch /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app
-s314733911.582993
-e314733911.586689
-r1
-xTouch
-x/Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app
-lSLF07#2@85"Touch /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app314733911#314733911#0(0"0(0#0#0"8661504896#283"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alessandro/Documents/iphone-apps/rr/build/Release-iphonesimulator/rr.app0#
-
