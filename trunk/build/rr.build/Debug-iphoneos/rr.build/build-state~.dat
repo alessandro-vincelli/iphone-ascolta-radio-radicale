@@ -1,847 +1,0 @@
-Trr
-v7
-r0
-t314730673.727808
-cCheck dependencies
-cCpResource build/Debug-iphoneos/rr.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/Info.plist rr-Info.plist
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/loading.png loading.png
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/pause.png pause.png
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/play.png play.png
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/playerbar.png playerbar.png
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/logo.png logo.png
-cCompileXIB /Users/alessandro/Documents/iphone-apps/rr/About.xib
-cCpResource build/Debug-iphoneos/rr.app/data.html data.html
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/about.png about.png
-cCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr-icon-application.png rr-icon-application.png
-cProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch.gch rr_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch.gch rr_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/main.o /Users/alessandro/Documents/iphone-apps/rr/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rrAppDelegate.o /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/FirstViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AudioStreamer.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/About.o /Users/alessandro/Documents/iphone-apps/rr/About.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/main.o /Users/alessandro/Documents/iphone-apps/rr/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rrAppDelegate.o /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/FirstViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AudioStreamer.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/About.o /Users/alessandro/Documents/iphone-apps/rr/About.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr normal armv6
-cLd /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr normal armv7
-cCreateUniversalBinary /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr normal "armv6 armv7"
-cGenerateDSYMFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app.dSYM /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr
-cProcessProductPackaging "/Users/alessandro/Library/MobileDevice/Provisioning Profiles/D0300217-8DA3-4FB8-B808-39CAFEE73AAB.mobileprovision" /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/embedded.mobileprovision
-cTouch /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent
-cCodeSign /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004CC10EF400000000003B8CB0
-t1287720692
-s3902640
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004CC10EB60000000000000A23
-t1287720630
-s2595
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004CC10EEE00000000002C9710
-t1287720686
-s2922256
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
-c000000004CC10EAD00000000000004CF
-t1287720621
-s1231
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
-c000000004CC247E70000000000000294
-t1287800807
-s660
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004CC2483E000000000038CF50
-t1287800894
-s3723088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h
-c000000004CC1111D0000000000000364
-t1287721245
-s868
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC1127D0000000000267530
-t1287721597
-s2520368
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/pthread.h
-c000000004CB3E4B800000000000038F0
-t1286857912
-s14576
-
-N/Users/alessandro/Documents/iphone-apps/rr/About.h
-c000000004D1224A90000000000000118
-t1293034665
-s280
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/About.m
-c000000004D1225C50000000000000676
-t1293034949
-s1654
-i"About.h"
-
-N/Users/alessandro/Documents/iphone-apps/rr/About.xib
-c000000004D122B9A000000000000489B
-t1293036442
-s18587
-
-N/Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-c000000004D1231260000000000006960
-t1293037862
-s26976
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.h
-c000000004D0F84EE0000000000000224
-t1292862702
-s548
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m
-c000000004D0F84EE0000000000001AF9
-t1292862702
-s6905
-i"AscoltaRadioRadicaleViewController.h"
-i"AudioStreamer.h"
-i<QuartzCore/CoreAnimation.h>
-i<MediaPlayer/MediaPlayer.h>
-i<CFNetwork/CFNetwork.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.h
-c000000004D0F84EE0000000000001700
-t1292862702
-s5888
-i<UIKit/UIKit.h>
-i<Cocoa/Cocoa.h>
-i<pthread.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m
-c000000004D0F84EE000000000000BFA7
-t1292862702
-s49063
-i"AudioStreamer.h"
-i<CFNetwork/CFNetwork.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.h
-c000000004D0FA32F00000000000000E0
-t1292870447
-s224
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m
-c000000004D0FA32F00000000000005A9
-t1292870447
-s1449
-i"FirstViewController.h"
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.h
-c000000004D0FA32F00000000000001C5
-t1292870447
-s453
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m
-c000000004D0FA32F0000000000000C26
-t1292870447
-s3110
-i"rrAppDelegate.h"
-
-N/Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-c000000004D0FA32F00000000000049CC
-t1292870447
-s18892
-
-N/Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-c000000004D122681000000000000801B
-t1293035137
-s32795
-
-N/Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-c000000004D0FA32F00000000000049CA
-t1292870447
-s18890
-
-N/Users/alessandro/Documents/iphone-apps/rr/about.png
-c000000004A3E20E2000000000000011C
-t1245585634
-s284
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-t1293037873
-s748
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app.dSYM
-t1293037873
-s102
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/About.nib
-t1293037871
-s978
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/AscoltaRadioRadicaleViewController.nib
-t1293037871
-s1972
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/FirstView.nib
-t1293037871
-s1743
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/Info.plist
-t1293037871
-s869
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/MainWindow.nib
-t1293037871
-s1827
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/PkgInfo
-t1293037871
-s8
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/ResourceRules.plist
-t1293037871
-s485
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/SecondView.nib
-t1293037871
-s1742
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/about.png
-t1293037871
-s326
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/data.html
-t1293037871
-s1973
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/embedded.mobileprovision
-t1293037873
-s7189
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/loading.png
-t1293037871
-s1254
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/logo.png
-t1293037871
-s8304
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/pause.png
-t1293037871
-s2827
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/play.png
-t1293037871
-s2997
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/playerbar.png
-t1293037871
-s4852
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr
-t1293037873
-s164188
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr-icon-application.png
-t1293037871
-s6261
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/About.o
-t1293037873
-s40940
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AscoltaRadioRadicaleViewController.o
-t1293037873
-s62048
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AudioStreamer.o
-t1293037873
-s132932
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/FirstViewController.o
-t1293037872
-s37456
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/main.o
-t1293037872
-s6456
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr
-t1293037873
-s78932
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr.LinkFileList
-c000000004D12312F00000000000002D4
-t1293037871
-s724
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rrAppDelegate.o
-t1293037872
-s53748
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/About.o
-t1293037873
-s40856
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AscoltaRadioRadicaleViewController.o
-t1293037873
-s60888
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AudioStreamer.o
-t1293037873
-s129152
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/FirstViewController.o
-t1293037873
-s37436
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/main.o
-t1293037873
-s6440
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr
-t1293037873
-s78172
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr.LinkFileList
-c000000004D12312F00000000000002D4
-t1293037871
-s724
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rrAppDelegate.o
-t1293037873
-s53668
-
-N/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent
-t1293037873
-s436
-
-N/Users/alessandro/Documents/iphone-apps/rr/data.html
-c000000004D122BCB00000000000007B5
-t1293036491
-s1973
-
-N/Users/alessandro/Documents/iphone-apps/rr/loading.png
-c000000004D0F84EE0000000000003AFC
-t1292862702
-s15100
-
-N/Users/alessandro/Documents/iphone-apps/rr/logo.png
-c000000004D0F84EE0000000000001A89
-t1292862702
-s6793
-
-N/Users/alessandro/Documents/iphone-apps/rr/main.m
-c000000004D0FA32F000000000000015B
-t1292870447
-s347
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Documents/iphone-apps/rr/pause.png
-c000000004D0F84EE0000000000000B30
-t1292862702
-s2864
-
-N/Users/alessandro/Documents/iphone-apps/rr/play.png
-c000000004D0F84EE0000000000000BA3
-t1292862702
-s2979
-
-N/Users/alessandro/Documents/iphone-apps/rr/playerbar.png
-c000000004D0F84EE00000000000012DD
-t1292862702
-s4829
-
-N/Users/alessandro/Documents/iphone-apps/rr/rr-icon-application.png
-c000000004D122EC900000000000017A0
-t1293037257
-s6048
-
-N/Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch
-c000000004D0FA32F00000000000000AD
-t1292870447
-s173
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/alessandro/Library/MobileDevice/Provisioning Profiles/D0300217-8DA3-4FB8-B808-39CAFEE73AAB.mobileprovision
-c000000004CC2DDDA0000000000001C15
-t1287839194
-s7189
-
-N/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch.gch
-t1293037872
-s9983704
-
-N/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch.gch
-t1293037872
-s10446552
-
-Nrr-Info.plist
-c000000004D1230D800000000000003F6
-t1293037784
-s1014
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314730671#314730671#0(0"0(0#1#0"8644029280#0"0#
-
-CCodeSign /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-s314730673.563552
-e314730673.727677
-r1
-xCodeSign
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-lSLF07#2@36"CodeSign build/Debug-iphoneos/rr.app314730673#314730673#0(0"0(0#0#70"/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app8638050272#646"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Alessandro Vincelli (5H975GUKZC)" --resource-rules=/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/ResourceRules.plist --entitlements /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/About.o /Users/alessandro/Documents/iphone-apps/rr/About.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.978123
-e314730673.073286
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/About.o
-x/Users/alessandro/Documents/iphone-apps/rr/About.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/alessandro/Documents/iphone-apps/rr/About.m314730672#314730673#0(0"0(0#0#50"/Users/alessandro/Documents/iphone-apps/rr/About.m8639799616#1670"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/About.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/About.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.904200
-e314730673.108142
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AscoltaRadioRadicaleViewController.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController setButtonImage:]':
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: 'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: (Messages without a matching method signature
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: will be assumed to return 'id' and accept
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: '...' as arguments.)
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController updateProgress:]':
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:253: warning: unused variable 'duration'
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:252: warning: unused variable 'progress'
-lSLF07#2@95"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314730672#314730673#0(1157"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController setButtonImage:]':/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: 'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: (Messages without a matching method signature/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: will be assumed to return 'id' and accept/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: '...' as arguments.)/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController updateProgress:]':/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:253: warning: unused variable 'duration'/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:252: warning: unused variable 'progress'4(22@69"'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'314730672#158#171#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#44#0#44#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314730672#329#147#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#44#0#44#0#0"0(22@26"Unused variable 'duration'314730673#899#129#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#253#0#253#0#19"unused variable '*'0(22@26"Unused variable 'progress'314730673#1028#129#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#252#0#252#0#19"unused variable '*'0(0#0#87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m8640438656#1736"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AscoltaRadioRadicaleViewController.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AudioStreamer.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.963607
-e314730673.364449
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AudioStreamer.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m314730672#314730673#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m8639955712#1694"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/AudioStreamer.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/FirstViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.903248
-e314730672.977981
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/FirstViewController.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m314730672#314730672#0(0"0(0#0#72"/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m8641088384#1706"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/FirstViewController.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/main.o /Users/alessandro/Documents/iphone-apps/rr/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.901242
-e314730672.963433
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/main.o
-x/Users/alessandro/Documents/iphone-apps/rr/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/alessandro/Documents/iphone-apps/rr/main.m314730672#314730672#0(0"0(0#0#49"/Users/alessandro/Documents/iphone-apps/rr/main.m8643052992#1668"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/main.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rrAppDelegate.o /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.902291
-e314730672.992623
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rrAppDelegate.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m314730672#314730672#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m8641925856#1694"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rrAppDelegate.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/About.o /Users/alessandro/Documents/iphone-apps/rr/About.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730673.175885
-e314730673.260196
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/About.o
-x/Users/alessandro/Documents/iphone-apps/rr/About.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/alessandro/Documents/iphone-apps/rr/About.m314730673#314730673#0(0"0(0#0#50"/Users/alessandro/Documents/iphone-apps/rr/About.m8639959904#1670"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/About.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/About.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AscoltaRadioRadicaleViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730673.108288
-e314730673.307152
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AscoltaRadioRadicaleViewController.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController setButtonImage:]':
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: 'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: (Messages without a matching method signature
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: will be assumed to return 'id' and accept
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: '...' as arguments.)
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController updateProgress:]':
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:253: warning: unused variable 'duration'
-o/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:252: warning: unused variable 'progress'
-lSLF07#2@95"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314730673#314730673#0(1157"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController setButtonImage:]':/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: 'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: (Messages without a matching method signature/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: will be assumed to return 'id' and accept/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:44: warning: '...' as arguments.)/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m: In function '-[AscoltaRadioRadicaleViewController updateProgress:]':/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:253: warning: unused variable 'duration'/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m:252: warning: unused variable 'progress'4(22@69"'AscoltaRadioRadicaleViewController' may not respond to '-spinButton'314730673#158#171#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#44#0#44#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314730673#329#147#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#44#0#44#0#0"0(22@26"Unused variable 'duration'314730673#899#129#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#253#0#253#0#19"unused variable '*'0(22@26"Unused variable 'progress'314730673#1028#129#0(6@87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m314555502#252#0#252#0#19"unused variable '*'0(0#0#87"/Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m8644076864#1736"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/AscoltaRadioRadicaleViewController.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AscoltaRadioRadicaleViewController.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AudioStreamer.o /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730673.164615
-e314730673.457484
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AudioStreamer.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m314730673#314730673#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m8640197728#1694"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/AudioStreamer.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/AudioStreamer.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/FirstViewController.o /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730673.075066
-e314730673.164244
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/FirstViewController.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m314730673#314730673#0(0"0(0#0#72"/Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m8636610976#1706"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/FirstViewController.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/FirstViewController.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/main.o /Users/alessandro/Documents/iphone-apps/rr/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730672.992763
-e314730673.074966
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/main.o
-x/Users/alessandro/Documents/iphone-apps/rr/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/alessandro/Documents/iphone-apps/rr/main.m314730672#314730673#0(0"0(0#0#49"/Users/alessandro/Documents/iphone-apps/rr/main.m8639293472#1668"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/main.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/main.o0#
-
-CCompileC build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rrAppDelegate.o /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730673.073427
-e314730673.175736
-r1
-xCompileC
-xbuild/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rrAppDelegate.o
-x/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m314730673#314730673#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m8637591488#1694"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -include /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch -c /Users/alessandro/Documents/iphone-apps/rr/Classes/rrAppDelegate.m -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rrAppDelegate.o0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/About.xib
-s314730671.621196
-e314730672.000847
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/About.xib
-lSLF07#2@20"CompileXIB About.xib314730671#314730672#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/About.xib8642671584#539"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/About.nib /Users/alessandro/Documents/iphone-apps/rr/About.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-s314730671.060219
-e314730671.640852
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib
-lSLF07#2@49"CompileXIB AscoltaRadioRadicaleViewController.xib314730671#314730671#0(0"0(0#0#81"/Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib8642036096#597"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/AscoltaRadioRadicaleViewController.nib /Users/alessandro/Documents/iphone-apps/rr/AscoltaRadioRadicaleViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-s314730671.059310
-e314730671.550329
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib314730671#314730671#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/FirstView.xib8642430496#547"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/FirstView.nib /Users/alessandro/Documents/iphone-apps/rr/FirstView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-s314730671.057826
-e314730671.595893
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib314730671#314730671#0(0"0(0#0#57"/Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib8642674592#549"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/MainWindow.nib /Users/alessandro/Documents/iphone-apps/rr/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-s314730671.058635
-e314730671.575314
-r1
-xCompileXIB
-x/Users/alessandro/Documents/iphone-apps/rr/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib314730671#314730671#0(0"0(0#0#57"/Users/alessandro/Documents/iphone-apps/rr/SecondView.xib8642623136#549"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/SecondView.nib /Users/alessandro/Documents/iphone-apps/rr/SecondView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/about.png about.png
-s314730671.633557
-e314730671.665162
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/about.png
-xabout.png
-lSLF07#2@59"CopyPNGFile build/Debug-iphoneos/rr.app/about.png about.png314730671#314730671#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/about.png8641558464#565"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/about.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/about.png0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/loading.png loading.png
-s314730671.550512
-e314730671.585503
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/loading.png
-xloading.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/rr.app/loading.png loading.png314730671#314730671#0(0"0(0#0#54"/Users/alessandro/Documents/iphone-apps/rr/loading.png8646034816#569"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/loading.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/loading.png0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/logo.png logo.png
-s314730671.605067
-e314730671.648099
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/logo.png
-xlogo.png
-lSLF07#2@57"CopyPNGFile build/Debug-iphoneos/rr.app/logo.png logo.png314730671#314730671#0(0"0(0#0#51"/Users/alessandro/Documents/iphone-apps/rr/logo.png8642931232#563"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/logo.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/logo.png0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/pause.png pause.png
-s314730671.575664
-e314730671.604935
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/pause.png
-xpause.png
-lSLF07#2@59"CopyPNGFile build/Debug-iphoneos/rr.app/pause.png pause.png314730671#314730671#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/pause.png8644408960#565"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/pause.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/pause.png0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/play.png play.png
-s314730671.585620
-e314730671.620898
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/play.png
-xplay.png
-lSLF07#2@57"CopyPNGFile build/Debug-iphoneos/rr.app/play.png play.png314730671#314730671#0(0"0(0#0#51"/Users/alessandro/Documents/iphone-apps/rr/play.png8643975872#563"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/play.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/play.png0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/playerbar.png playerbar.png
-s314730671.596067
-e314730671.632015
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/playerbar.png
-xplayerbar.png
-lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/rr.app/playerbar.png playerbar.png314730671#314730671#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/playerbar.png8643341760#573"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/playerbar.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/playerbar.png0#
-
-CCopyPNGFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr-icon-application.png rr-icon-application.png
-s314730671.640948
-e314730671.671376
-r1
-xCopyPNGFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr-icon-application.png
-xrr-icon-application.png
-lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/rr.app/rr-icon-application.png rr-icon-application.png314730671#314730671#0(0"0(0#0#66"/Users/alessandro/Documents/iphone-apps/rr/rr-icon-application.png8638525536#593"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alessandro/Documents/iphone-apps/rr/rr-icon-application.png /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr-icon-application.png0#
-
-CCpResource build/Debug-iphoneos/rr.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s314730671.052620
-e314730671.057771
-r1
-xCpResource
-xbuild/Debug-iphoneos/rr.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist314730671#314730671#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8643526560#497"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app0#
-
-CCpResource build/Debug-iphoneos/rr.app/data.html data.html
-s314730671.632137
-e314730671.640701
-r1
-xCpResource
-xbuild/Debug-iphoneos/rr.app/data.html
-xdata.html
-lSLF07#2@14"Copy data.html314730671#314730671#0(0"0(0#0#52"/Users/alessandro/Documents/iphone-apps/rr/data.html8642281120#460"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alessandro/Documents/iphone-apps/rr/data.html /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app0#
-
-CCreateUniversalBinary /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr normal "armv6 armv7"
-s314730673.485968
-e314730673.489097
-r1
-xCreateUniversalBinary
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr
-xnormal
-xarmv6 armv7
-lSLF07#2@73"CreateUniversalBinary build/Debug-iphoneos/rr.app/rr normal "armv6 armv7"314730673#314730673#0(0"0(0#0#54"/Users/alessandro/Documents/iphone-apps/rr/armv6 armv78640089536#494"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr -output /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr0#
-
-CGenerateDSYMFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app.dSYM /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr
-s314730673.489296
-e314730673.547760
-r1
-xGenerateDSYMFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app.dSYM
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr
-lSLF07#2@80"GenerateDSYMFile build/Debug-iphoneos/rr.app.dSYM build/Debug-iphoneos/rr.app/rr314730673#314730673#0(0"0(0#0#73"/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr8639895712#359"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/rr -o /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app.dSYM0#
-
-CLd /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr normal armv6
-s314730673.364577
-e314730673.400117
-r1
-xLd
-x/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr
-xnormal
-xarmv6
-lSLF07#2@110"Link /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr314730673#314730673#0(0"0(0#0#0"8642937120#939"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -filelist /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework AudioToolbox -framework CFNetwork -framework QuartzCore -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv6/rr0#
-
-CLd /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr normal armv7
-s314730673.457579
-e314730673.485870
-r1
-xLd
-x/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr
-xnormal
-xarmv7
-lSLF07#2@110"Link /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr314730673#314730673#0(0"0(0#0#0"8640451040#939"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -filelist /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework AudioToolbox -framework CFNetwork -framework QuartzCore -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/Objects-normal/armv7/rr0#
-
-CProcessInfoPlistFile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/Info.plist rr-Info.plist
-s314730671.053431
-e314730671.057004
-r1
-xProcessInfoPlistFile
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/Info.plist
-xrr-Info.plist
-lSLF07#2@21"Process rr-Info.plist314730671#314730671#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/rr-Info.plist8643143712#558"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility rr-Info.plist -genpkginfo /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/ResourceRules.plist -o /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/Info.plist0#
-
-CProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch.gch rr_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314730672.000985
-e314730672.874630
-r1
-xProcessPCH
-x/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch.gch
-xrr_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@24"Precompile rr_Prefix.pch314730672#314730672#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch8639786976#1567"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv6 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -c /Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch -o /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-bjrxspnhhveedhhlhejlcgqcjwcc/rr_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch.gch rr_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314730672.002067
-e314730672.901134
-r1
-xProcessPCH
-x/var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch.gch
-xrr_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@24"Precompile rr_Prefix.pch314730672#314730672#0(0"0(0#0#56"/Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch8638047264#1567"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-generated-files.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-own-target-headers.hmap -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-all-target-headers.hmap -iquote /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr-project-headers.hmap -F/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos -I/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/include -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources/armv7 -I/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/DerivedSources -c /Users/alessandro/Documents/iphone-apps/rr/rr_Prefix.pch -o /var/folders/a7/a7Tv5-u4GsiccqiZU8eXzE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rr_Prefix-flrkstbrvqwdwwafmjbaxzfbqvva/rr_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/alessandro/Library/MobileDevice/Provisioning Profiles/D0300217-8DA3-4FB8-B808-39CAFEE73AAB.mobileprovision" /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/embedded.mobileprovision
-s314730673.547859
-e314730673.548845
-r1
-xProcessProductPackaging
-x/Users/alessandro/Library/MobileDevice/Provisioning Profiles/D0300217-8DA3-4FB8-B808-39CAFEE73AAB.mobileprovision
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/embedded.mobileprovision
-lSLF07#2@192"ProcessProductPackaging "/Users/alessandro/Library/MobileDevice/Provisioning Profiles/D0300217-8DA3-4FB8-B808-39CAFEE73AAB.mobileprovision" build/Debug-iphoneos/rr.app/embedded.mobileprovision314730673#314730673#0(0"0(0#0#95"/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/embedded.mobileprovision8642631328#431"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/alessandro/Library/MobileDevice/Provisioning Profiles/D0300217-8DA3-4FB8-B808-39CAFEE73AAB.mobileprovision" -o /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent
-s314730673.552203
-e314730673.563481
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent
-lSLF07#2@160"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/rr.build/Debug-iphoneos/rr.build/rr.xcent314730673#314730673#0(0"0(0#0#90"/Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent8639966688#425"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/alessandro/Documents/iphone-apps/rr/build/rr.build/Debug-iphoneos/rr.build/rr.xcent0#
-
-CTouch /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-s314730673.549020
-e314730673.552093
-r1
-xTouch
-x/Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app
-lSLF07#2@76"Touch /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app314730673#314730673#0(0"0(0#0#0"8641297760#267"    cd /Users/alessandro/Documents/iphone-apps/rr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alessandro/Documents/iphone-apps/rr/build/Debug-iphoneos/rr.app0#
-
